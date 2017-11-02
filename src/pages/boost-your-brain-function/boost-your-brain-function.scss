@@ -1,0 +1,21 @@
+page-boost-your-brain-function {
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .ion-page > ion-content.brain-content {
+    background-image: url("../assets/images/bkgr-beach.jpg");
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ion-page > ion-content.brain-content {
+    background-image: url("../assets/images/bkgr-beach_768.jpg");
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .ion-page > ion-content.brain-content {
+    background-image: url("../assets/images/bkgr-beach_320.jpg");
+  }
+}

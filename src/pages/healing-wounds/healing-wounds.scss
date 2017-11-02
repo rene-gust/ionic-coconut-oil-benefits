@@ -1,0 +1,21 @@
+page-healing-wounds {
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .ion-page > ion-content.wounds-content {
+    background-image: url("../assets/images/bkgr-young-coconut.jpg");
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ion-page > ion-content.wounds-content {
+    background-image: url("../assets/images/bkgr-young-coconut_768.jpg");
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .ion-page > ion-content.wounds-content {
+    background-image: url("../assets/images/bkgr-young-coconut_320.jpg");
+  }
+}

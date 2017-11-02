@@ -1,0 +1,21 @@
+page-cooking {
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .ion-page > ion-content.cooking-content {
+    background-image: url("../assets/images/bkgr-coconut-cake.jpg");
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ion-page > ion-content.cooking-content {
+    background-image: url("../assets/images/bkgr-coconut-cake_768.jpg");
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .ion-page > ion-content.cooking-content {
+    background-image: url("../assets/images/bkgr-coconut-cake_320.jpg");
+  }
+}

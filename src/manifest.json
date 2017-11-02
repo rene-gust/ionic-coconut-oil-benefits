@@ -1,0 +1,13 @@
+{
+  "name": "Coconut Oil Benefits",
+  "short_name": "Coconut Oil",
+  "start_url": "index.html",
+  "display": "standalone",
+  "icons": [{
+    "src": "assets/images/logo.png",
+    "sizes": "640x640",
+    "type": "image/png"
+  }],
+  "background_color": "#4e8ef7",
+  "theme_color": "#4e8ef7"
+}

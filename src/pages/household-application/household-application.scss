@@ -1,0 +1,21 @@
+page-household-application {
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .ion-page > ion-content.household-content {
+    background-image: url("../assets/images/bkgr-coconut-palm.jpg");
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ion-page > ion-content.household-content {
+    background-image: url("../assets/images/bkgr-coconut-palm_768.jpg");
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .ion-page > ion-content.household-content {
+    background-image: url("../assets/images/bkgr-coconut-palm_320.jpg");
+  }
+}

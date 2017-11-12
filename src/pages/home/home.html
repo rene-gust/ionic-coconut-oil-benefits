@@ -1,45 +1,33 @@
 <ion-header>
-    <ion-navbar>
-        <ion-title>Coconut Oil Benefits</ion-title>
-    </ion-navbar>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Coconut Oil Benefits</ion-title>
+  </ion-navbar>
 </ion-header>
 
-<ion-content class="home-content">
-    <button ion-button block color="light" (click)="goEnergy()">
-        <img src="assets/images/biceps.png" width="32" height="32">&nbsp;Increase Your Energy
-    </button>
-    <button ion-button block color="light" (click)="goImmune()">
-        <img src="assets/images/immune.png" width="32" height="32">&nbsp;Boost Your Immune System
-    </button>
-    <button ion-button block color="light" (click)="goBrain()">
-        <img src="assets/images/brain.png" width="32" height="32">&nbsp;Boost Your Brain Function
-    </button>
-    <button ion-button block color="light" (click)="goHair()">
-        <img src="assets/images/hair.png" width="32" height="32">&nbsp;Hair Treatment
-    </button>
-    <button ion-button block color="light" (click)="goWounds()">
-        <img src="assets/images/plaster.png" width="32" height="32">&nbsp;Healing Wounds
-    </button>
-    <button ion-button block color="light" (click)="goSkin()">
-        <img src="assets/images/skin.png" width="32" height="32">&nbsp;Skin Care
-    </button>
-    <button ion-button block color="light" (click)="goIllnesses()">
-        <img src="assets/images/illnesses.png" width="32" height="32">&nbsp;Treatments For Illnesses
-    </button>
-    <button ion-button block color="light" (click)="goCooking()">
-        <img src="assets/images/cooking.png" width="32" height="32">&nbsp;Cooking
-    </button>
-    <button ion-button block color="light" (click)="goPets()">
-        <img src="assets/images/pets.png" width="32" height="32">&nbsp;Pets
-    </button>
-    <button ion-button block color="light" (click)="goFurniture()">
-        <img src="assets/images/furniture.png" width="32" height="32">&nbsp;Furniture Polish
-    </button>
-    <button ion-button block color="light" (click)="goHousehold()">
-        <img src="assets/images/household.png" width="32" height="32">&nbsp;Household Application
-    </button>
-    <button ion-button block color="light" (click)="goBuy()">
-        <img src="assets/images/buy.png" width="32" height="32">&nbsp;How To Choose The Best Coconut Oil
-    </button>
-    <ion-textarea (click)="showOpened()" id="text"></ion-textarea>
+<ion-content padding>
+  <h3>Menu:</h3>
+  <button ion-button block color="light" (click)="openPage('info-wiki')">
+    <ion-icon name="book"></ion-icon>&nbsp;Coconut Info Wiki
+  </button>
+  <button ion-button block color="light" (click)="openPage('video-tutorials')">
+    <ion-icon name="logo-youtube"></ion-icon>&nbsp;Coconut Video Tutorials
+  </button>
+
+
+  <ul class="rrssb-buttons">
+    <li class="rrssb-facebook">
+      <a href='http://www.facebook.com/sharer.php?s=100&p[url]=https://www.facebook.com/coconut.oil.to.improve.your.life/'
+         class="popup">
+        <img src="assets/images/share-facebook.png" width="223" height="50">
+      </a>
+    </li>
+    <li class="rrssb-twitter">
+      <a href="http://twitter.com/home?status=Learn about the coconut oil benefits! - https://goo.gl/V87pxr #coconut-oil-benefits">
+        <img src="assets/images/share-twitter.png" width="223" height="50">
+      </a>
+    </li>
+  </ul>
 </ion-content>

@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { NavController, NavParams } from 'ionic-angular';
 import {HowToBuyPage} from "../how-to-buy/how-to-buy";
-import {MarketingManager} from "../marketingmanager";
 
 /**
  * Generated class for the BoostYourBrainFunctionPage page.
@@ -10,7 +9,6 @@ import {MarketingManager} from "../marketingmanager";
  * on Ionic pages and navigation.
  */
 
-@IonicPage()
 @Component({
   selector: 'page-boost-your-brain-function',
   templateUrl: 'boost-your-brain-function.html',
@@ -18,7 +16,7 @@ import {MarketingManager} from "../marketingmanager";
 export class BoostYourBrainFunctionPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
-    MarketingManager.pageOpened();
+
   }
 
   goBuy() {

@@ -1,0 +1,71 @@
+page-home {
+}
+
+.button-inner{
+  justify-content:flex-start;
+}
+.ion-page > ion-content {
+  background-repeat: repeat-y;
+  background-position-x: center;
+}
+@media screen and (min-width: 1280px) {
+  .ion-page > ion-content {
+    background-image: url("../assets/images/bkgr-coconut.jpg");
+  }
+  ion-content button.button {
+    height: 3em;
+  }
+  ion-content button.button,
+  ion-content h2,
+  ion-content p,
+  ion-content div.content {
+    font-size: 2em;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px){
+  ion-content button.button {
+    height: 5em;
+  }
+  ion-content button.button,
+  ion-content h2,
+  ion-content p,
+  ion-content div.content {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .ion-page > ion-content {
+    background-image: url("../assets/images/bkgr-coconut_768.jpg");
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .ion-page > ion-content {
+    background-image: url("../assets/images/bkgr-coconut_320.jpg");
+  }
+}
+
+.ion-page > ion-content button {
+  background: rgba(255, 255, 255, 0.6);
+}
+
+ion-header .toolbar-background {
+  background: rgba(255, 255, 255, 0.75);
+  align-items: center;
+}
+
+ion-title span.title {
+  position: relative;
+  top: -10px;
+}
+
+ion-content p,
+ion-content div.content {
+  background: rgba(255, 255, 255, 0.75);
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 5px;
+  font-weight: 500;
+}

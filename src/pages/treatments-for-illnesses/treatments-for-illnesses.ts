@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { NavController, NavParams } from 'ionic-angular';
 import {HowToBuyPage} from "../how-to-buy/how-to-buy";
-import {MarketingManager} from "../marketingmanager";
 /**
  * Generated class for the TreatmentsForIllnessesPage page.
  *
@@ -9,7 +8,6 @@ import {MarketingManager} from "../marketingmanager";
  * on Ionic pages and navigation.
  */
 
-@IonicPage()
 @Component({
   selector: 'page-treatments-for-illnesses',
   templateUrl: 'treatments-for-illnesses.html',
@@ -17,7 +15,7 @@ import {MarketingManager} from "../marketingmanager";
 export class TreatmentsForIllnessesPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
-    MarketingManager.pageOpened();
+
   }
 
   goBuy() {

@@ -1,0 +1,1 @@
+/media/rene/Data/LinuxPrograms/AndroidSDK/emulator/emulator -avd Nexus_5X_API_16 -use-system-libs

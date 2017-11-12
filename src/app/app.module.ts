@@ -1,15 +1,13 @@
-import {NgModule, ErrorHandler} from '@angular/core';
-import {BrowserModule} from '@angular/platform-browser';
-import {IonicApp, IonicModule, IonicErrorHandler} from 'ionic-angular';
-import {MyApp} from './app.component';
+import { BrowserModule } from '@angular/platform-browser';
+import { ErrorHandler, NgModule } from '@angular/core';
+import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 
-import {AboutPage} from '../pages/about/about';
-import {ContactPage} from '../pages/contact/contact';
-import {HomePage} from '../pages/home/home';
-import {TabsPage} from '../pages/tabs/tabs';
+import { MyApp } from './app.component';
+import { HomePage } from '../pages/home/home';
+import { InfoWikiPage } from '../pages/info-wiki/info-wiki';
 
-import {StatusBar} from '@ionic-native/status-bar';
-import {SplashScreen} from '@ionic-native/splash-screen';
+import { StatusBar } from '@ionic-native/status-bar';
+import { SplashScreen } from '@ionic-native/splash-screen';
 
 import {IncreaseYourEnegryPage} from "../pages/increase-your-enegry/increase-your-enegry";
 import {BoostYourImmuneSystemPage} from "../pages/boost-your-immune-system/boost-your-immune-system";
@@ -23,58 +21,54 @@ import {PetsPage} from "../pages/pets/pets";
 import {FurniturePolishPage} from "../pages/furniture-polish/furniture-polish";
 import {HouseholdApplicationPage} from "../pages/household-application/household-application";
 import {HowToBuyPage} from "../pages/how-to-buy/how-to-buy";
-import {AppRate} from "@ionic-native/app-rate";
+import {VideoTutorialsPage} from "../pages/video-tutorials/video-tutorials";
 
 @NgModule({
-    declarations: [
-        MyApp,
-        AboutPage,
-        ContactPage,
-        HomePage,
-        TabsPage,
-        IncreaseYourEnegryPage,
-        BoostYourImmuneSystemPage,
-        BoostYourBrainFunctionPage,
-        HairTreatmentPage,
-        HealingWoundsPage,
-        SkinCarePage,
-        TreatmentsForIllnessesPage,
-        CookingPage,
-        PetsPage,
-        FurniturePolishPage,
-        HouseholdApplicationPage,
-        HowToBuyPage
-    ],
-    imports: [
-        BrowserModule,
-        IonicModule.forRoot(MyApp)
-    ],
-    bootstrap: [IonicApp],
-    entryComponents: [
-        MyApp,
-        AboutPage,
-        ContactPage,
-        HomePage,
-        TabsPage,
-        IncreaseYourEnegryPage,
-        BoostYourImmuneSystemPage,
-        BoostYourBrainFunctionPage,
-        HairTreatmentPage,
-        HealingWoundsPage,
-        SkinCarePage,
-        TreatmentsForIllnessesPage,
-        CookingPage,
-        PetsPage,
-        FurniturePolishPage,
-        HouseholdApplicationPage,
-        HowToBuyPage
-    ],
-    providers: [
-        StatusBar,
-        SplashScreen,
-        AppRate,
-        {provide: ErrorHandler, useClass: IonicErrorHandler}
-    ]
+  declarations: [
+    MyApp,
+    HomePage,
+    InfoWikiPage,
+    IncreaseYourEnegryPage,
+    BoostYourImmuneSystemPage,
+    BoostYourBrainFunctionPage,
+    HairTreatmentPage,
+    HealingWoundsPage,
+    SkinCarePage,
+    TreatmentsForIllnessesPage,
+    CookingPage,
+    PetsPage,
+    FurniturePolishPage,
+    HouseholdApplicationPage,
+    HowToBuyPage,
+    VideoTutorialsPage
+  ],
+  imports: [
+    BrowserModule,
+    IonicModule.forRoot(MyApp),
+  ],
+  bootstrap: [IonicApp],
+  entryComponents: [
+    MyApp,
+    HomePage,
+    InfoWikiPage,
+    IncreaseYourEnegryPage,
+    BoostYourImmuneSystemPage,
+    BoostYourBrainFunctionPage,
+    HairTreatmentPage,
+    HealingWoundsPage,
+    SkinCarePage,
+    TreatmentsForIllnessesPage,
+    CookingPage,
+    PetsPage,
+    FurniturePolishPage,
+    HouseholdApplicationPage,
+    HowToBuyPage,
+    VideoTutorialsPage
+  ],
+  providers: [
+    StatusBar,
+    SplashScreen,
+    {provide: ErrorHandler, useClass: IonicErrorHandler}
+  ]
 })
-export class AppModule {
-}
+export class AppModule {}

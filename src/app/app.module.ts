@@ -22,6 +22,7 @@ import {FurniturePolishPage} from "../pages/furniture-polish/furniture-polish";
 import {HouseholdApplicationPage} from "../pages/household-application/household-application";
 import {HowToBuyPage} from "../pages/how-to-buy/how-to-buy";
 import {VideoTutorialsPage} from "../pages/video-tutorials/video-tutorials";
+import {PuzzleGamePage} from "../pages/puzzle-game/puzzle-game";
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import {VideoTutorialsPage} from "../pages/video-tutorials/video-tutorials";
     FurniturePolishPage,
     HouseholdApplicationPage,
     HowToBuyPage,
-    VideoTutorialsPage
+    VideoTutorialsPage,
+    PuzzleGamePage
   ],
   imports: [
     BrowserModule,
@@ -63,7 +65,8 @@ import {VideoTutorialsPage} from "../pages/video-tutorials/video-tutorials";
     FurniturePolishPage,
     HouseholdApplicationPage,
     HowToBuyPage,
-    VideoTutorialsPage
+    VideoTutorialsPage,
+    PuzzleGamePage
   ],
   providers: [
     StatusBar,

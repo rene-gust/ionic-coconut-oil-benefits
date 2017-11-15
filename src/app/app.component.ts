@@ -6,7 +6,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { HomePage } from '../pages/home/home';
 import { InfoWikiPage } from '../pages/info-wiki/info-wiki';
 import {VideoTutorialsPage} from "../pages/video-tutorials/video-tutorials";
-import {PuzzleGamePage} from "../pages/puzzle-game/puzzle-game";
+import {GamesPage} from "../pages/games/games";
 
 @Component({
   templateUrl: 'app.html'
@@ -26,7 +26,7 @@ export class MyApp {
       { title: 'Home', component: HomePage },
       { title: 'Info Wiki', component: InfoWikiPage },
       { title: 'Video Tutorials', component: VideoTutorialsPage },
-      { title: 'Coco Puzzle Game', component: PuzzleGamePage }
+      { title: 'Games', component: GamesPage }
     ];
 
   }

@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Coconut Games</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h3>Menu:</h3>
+  <button ion-button block color="light" (click)="openPage('puzzle-game')">
+    <ion-icon name="game-controller-b"></ion-icon>&nbsp;Coconut Puzzle Game
+  </button>
+  <button ion-button block color="light" (click)="openPage('zoko-game')">
+    <ion-icon name="game-controller-b"></ion-icon>&nbsp;Coconut Zoko Game
+  </button>
+</ion-content>

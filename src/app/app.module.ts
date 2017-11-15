@@ -23,6 +23,8 @@ import {HouseholdApplicationPage} from "../pages/household-application/household
 import {HowToBuyPage} from "../pages/how-to-buy/how-to-buy";
 import {VideoTutorialsPage} from "../pages/video-tutorials/video-tutorials";
 import {PuzzleGamePage} from "../pages/puzzle-game/puzzle-game";
+import {ZokoGamePage} from "../pages/zoko-game/zoko-game";
+import {GamesPage} from "../pages/games/games";
 
 @NgModule({
   declarations: [
@@ -42,7 +44,9 @@ import {PuzzleGamePage} from "../pages/puzzle-game/puzzle-game";
     HouseholdApplicationPage,
     HowToBuyPage,
     VideoTutorialsPage,
-    PuzzleGamePage
+    GamesPage,
+    PuzzleGamePage,
+    ZokoGamePage
   ],
   imports: [
     BrowserModule,
@@ -66,7 +70,9 @@ import {PuzzleGamePage} from "../pages/puzzle-game/puzzle-game";
     HouseholdApplicationPage,
     HowToBuyPage,
     VideoTutorialsPage,
-    PuzzleGamePage
+    GamesPage,
+    PuzzleGamePage,
+    ZokoGamePage
   ],
   providers: [
     StatusBar,

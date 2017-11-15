@@ -13,26 +13,6 @@
 
   <!-- cordova.js required for cordova apps -->
   <script src="cordova.js"></script>
-  <script>
-      window.fbAsyncInit = function() {
-          FB.init({
-              appId      : '125582731515200',
-              cookie     : true,
-              xfbml      : true,
-              version    : 'v2.4'
-          });
-          FB.AppEvents.logPageView();
-          FB.AppEvents.activateApp();
-      };
-
-      (function(d, s, id){
-          var js, fjs = d.getElementsByTagName(s)[0];
-          if (d.getElementById(id)) {return;}
-          js = d.createElement(s); js.id = id;
-          js.src = "//connect.facebook.net/en_US/sdk.js";
-          fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-  </script>
 
   <link href="build/main.css" rel="stylesheet">
 
@@ -65,5 +45,8 @@
   <script src="/assets/puzzle/js/backgroundservice.js"></script>
   <script src="/assets/puzzle/js/storage.js"></script>
   <!-- puzzle game end -->
+  <!-- zoko game start -->
+  <script src="/assets/zoko/js/zoko.js"></script>
+  <!-- zoko game end -->
 </body>
 </html>

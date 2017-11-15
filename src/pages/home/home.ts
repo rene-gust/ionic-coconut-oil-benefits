@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import {InfoWikiPage} from "../info-wiki/info-wiki";
 import {VideoTutorialsPage} from "../video-tutorials/video-tutorials";
-import {PuzzleGamePage} from "../puzzle-game/puzzle-game";
+import {GamesPage} from "../games/games";
 
 @Component({
   selector: 'page-home',
@@ -19,7 +19,7 @@ export class HomePage {
             break;
         case 'video-tutorials': this.navCtrl.push(VideoTutorialsPage);
             break;
-        case 'puzzle-game': this.navCtrl.push(PuzzleGamePage);
+        case 'games': this.navCtrl.push(GamesPage);
             break;
     }
   }

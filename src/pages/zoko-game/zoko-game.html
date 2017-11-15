@@ -1,0 +1,69 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>
+            Coco Zoko
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <div id="zoko-container" class="container">
+        <div id="wrapper">
+            <div class="content">
+                <canvas id="zoko" height="450" width="850"></canvas>
+
+                <div id="overlay">
+                    <p id="steps">0 steps</p>
+                    <p id="level">Level <span class="levelNumber">1</span></p>
+                </div>
+
+                <div id="menu">
+                    <div class="options">
+                        <h2 class="title">Options</h2>
+                        <button id="continueBtn" class="btn">Continue Game</button>
+                        <button id="nextBtn" class="btn">Next Level &rarr;</button>
+                        <button id="previousBtn" class="btn">&larr; Previous Level</button>
+                    </div>
+                    <div class="highscore">
+                        <h2>Highscore</h2>
+                        <table class="table">
+                            <tbody>
+                            <tr>
+                                <td>Level 1
+                                <td>2 steps</td>
+                            </tr>
+                            <tr>
+                                <td>Level 2
+                                <td>3 steps</td>
+                            </tr>
+                            <tr>
+                                <td>Level 3
+                                <td>?</td>
+                            </tr>
+                            <tr>
+                                <td>Level 4
+                                <td>?</td>
+                            </tr>
+                            <tr class="last">
+                                <td>Level 5
+                                <td>?</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div id="menuOverlay"></div>
+                <div id="controlOverlay">
+                    <ion-icon id="controlUp" name="arrow-round-up"></ion-icon>
+                    <ion-icon id="controlRight" name="arrow-round-forward"></ion-icon>
+                    <ion-icon id="controlDown" name="arrow-round-down"></ion-icon>
+                    <ion-icon id="controlLeft" name="arrow-round-back"></ion-icon>
+                </div>
+                <div id="btn-group">
+                    <ion-icon id="menuBtn" name="home"></ion-icon>
+                    <ion-icon id="restartBtn" name="refresh"></ion-icon>
+                </div>
+            </div>
+        </div>
+    </div>
+</ion-content>

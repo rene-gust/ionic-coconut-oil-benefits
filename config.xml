@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="de.rene_gust.coconutoilbenefits_en" version="0.0.5" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Coconut Oil Benefits</name>
-    <description>Learn how to increase your energy, boost your immune system, your brain function, get beauty hair and much more.</description>
+<widget id="de.rene_gust.kokosoelanwendung" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Kokosöl Anwendung</name>
+    <description>Lerne, wie Du Deine Energie, Dein Immunsystem, Deine Gehirnfunktion erhöhst, erhalte schöneres Haar und mehr.</description>
     <author email="info@rene-gust.de" href="https://rene-gust.de/">Rene Gust</author>
     <content src="index.html" />
     <access origin="*" />

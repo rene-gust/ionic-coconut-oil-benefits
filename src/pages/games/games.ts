@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import {PuzzleGamePage} from "../puzzle-game/puzzle-game";
-import {ZokoGamePage} from "../zoko-game/zoko-game";
+import {GameMatchingPairs} from "../game-matching-pairs/game-matching-pairs";
+import {GameFollowMe} from "../game-follow-me/game-follow-me";
+
 
 @Component({
   selector: 'page-games',
@@ -14,9 +15,9 @@ export class GamesPage {
 
   public openPage(page: String) {
     switch (page) {
-        case 'puzzle-game': this.navCtrl.push(PuzzleGamePage);
+        case 'game-matching-pairs': this.navCtrl.push(GameMatchingPairs);
             break;
-        case 'zoko-game': this.navCtrl.push(ZokoGamePage);
+        case 'game-follow-me': this.navCtrl.push(GameFollowMe);
             break;
     }
   }

@@ -22,9 +22,9 @@ import {FurniturePolishPage} from "../pages/furniture-polish/furniture-polish";
 import {HouseholdApplicationPage} from "../pages/household-application/household-application";
 import {HowToBuyPage} from "../pages/how-to-buy/how-to-buy";
 import {VideoTutorialsPage} from "../pages/video-tutorials/video-tutorials";
-import {PuzzleGamePage} from "../pages/puzzle-game/puzzle-game";
-import {ZokoGamePage} from "../pages/zoko-game/zoko-game";
 import {GamesPage} from "../pages/games/games";
+import {GameMatchingPairs} from "../pages/game-matching-pairs/game-matching-pairs";
+import {GameFollowMe} from "../pages/game-follow-me/game-follow-me";
 
 @NgModule({
   declarations: [
@@ -45,8 +45,8 @@ import {GamesPage} from "../pages/games/games";
     HowToBuyPage,
     VideoTutorialsPage,
     GamesPage,
-    PuzzleGamePage,
-    ZokoGamePage
+    GameMatchingPairs,
+    GameFollowMe
   ],
   imports: [
     BrowserModule,
@@ -71,8 +71,8 @@ import {GamesPage} from "../pages/games/games";
     HowToBuyPage,
     VideoTutorialsPage,
     GamesPage,
-    PuzzleGamePage,
-    ZokoGamePage
+    GameMatchingPairs,
+    GameFollowMe
   ],
   providers: [
     StatusBar,

@@ -1,1 +1,1 @@
-ionic cordova build android --prod --release -- -- --keystore=hexotris.keystore --alias=hexotris
+ionic cordova build android --prod --release -- -- --keystore=kokosoel-awendung.keystore --alias=kokosoel
